@@ -27,7 +27,7 @@ collections:
     name: 'objava'
     folder: 'content/objava'
     preview: false
-    create: false
+    create: true
     fields:
       - label: Obavestenje
         name: title
