@@ -7,6 +7,8 @@ public_folder: ../../static/images/
 
 logo_url: ../logo1.png
 
+locale: 'sr'
+
 collections:
 #  - label: "Cenovnik"
 #    name: "cena"
