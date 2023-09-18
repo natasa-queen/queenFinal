@@ -2,7 +2,7 @@
 header {
   height: 100vh;
   //background-color: var(--crnaBg);
-  overflow: hidden;
+  //overflow: hidden;
 
 
   .header-modal {
@@ -24,10 +24,11 @@ header {
 
     .header-logo {
       position: absolute;
-      top: 45%;
+      top: 44%;
       left: 50%;
       transform: translate(-50%);
       width: 19rem;
+
     }
 
   }
@@ -108,10 +109,20 @@ header {
 
   @media  (max-width: 600px) {
 
-    .header-logo {
-      width: 10rem;
-      top: 55%;
+
+    .header-logoBox {
+      //left: 50%;
+
+
+      .header-logo {
+        width: 9rem;
+        transform: translate(-50%);
+
+      }
+
     }
+
+
   }
 
 

@@ -11,7 +11,7 @@ import '../assets/css/header.scss'
 
 const Header = () => {
 
-    const { ref } = useParallax({ speed: -20 });
+    const { ref } = useParallax({ speed: -19 });
 
 
   return(
