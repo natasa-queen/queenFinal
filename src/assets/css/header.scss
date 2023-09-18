@@ -1,0 +1,114 @@
+
+header {
+  height: 100vh;
+  //background-color: var(--crnaBg);
+
+
+  .header-modal {
+    background-color: var(--crna);
+
+
+    .header-slika {
+      height: 100vh;
+      opacity: 0.2;
+
+    }
+  }
+
+  .header-logo {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 19rem;
+  }
+
+
+  .strelica {
+    color: var(--zlatna);
+    font-size: 2rem;
+    font-weight: 100;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+
+    -webkit-animation: shake-vertical 10s cubic-bezier(0.455,             0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  }
+
+
+  .strl {
+
+  }
+
+  /*--- animation shake-vertical --------------*/
+  @-webkit-keyframes strelica {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    80% {
+      -webkit-transform: translateY(6.4px);
+      transform: translateY(6.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-6.4px);
+      transform: translateY(-6.4px);
+    }
+  }
+  @keyframes shake-vertical {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    80% {
+      -webkit-transform: translateY(6.4px);
+      transform: translateY(6.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-6.4px);
+      transform: translateY(-6.4px);
+    }
+  }
+
+
+  @media  (max-width: 600px) {
+
+    .header-logo {
+      width: 10rem;
+      top: 55%;
+    }
+  }
+
+
+
+}
