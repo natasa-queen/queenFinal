@@ -2,6 +2,7 @@
 header {
   height: 100vh;
   //background-color: var(--crnaBg);
+  overflow: hidden;
 
 
   .header-modal {
@@ -15,13 +16,22 @@ header {
     }
   }
 
-  .header-logo {
+  .header-logoBox {
     position: absolute;
-    top: 45%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
-    width: 19rem;
+
+    .header-logo {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%);
+      width: 19rem;
+    }
+
   }
+
 
 
   .strelica {
@@ -29,17 +39,12 @@ header {
     font-size: 2rem;
     font-weight: 100;
     position: absolute;
-    bottom: 10px;
+    bottom: 1vh;
     left: 50%;
     transform: translate(-50%);
 
     -webkit-animation: shake-vertical 10s cubic-bezier(0.455,             0.030, 0.515, 0.955) infinite both;
     animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-  }
-
-
-  .strl {
-
   }
 
   /*--- animation shake-vertical --------------*/
