@@ -46,12 +46,15 @@ const Header = () => {
         {/*</div>*/}
 
         <ParallaxProvider>
-          <Parallax speed={-15} className="header-logoBox">
-              <img
-                  src={logo}
-                  alt="logo"
-                  className='header-logo'
-              />
+          <Parallax speed={-19} className="header-logoBox" >
+              <div data-aos="zoom-in">
+                  <img
+                      src={logo}
+                      alt="logo"
+                      className='header-logo'
+
+                  />
+              </div>
           </Parallax>
         </ParallaxProvider>
 
