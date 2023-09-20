@@ -52,7 +52,7 @@ const Header = () => {
                       src={logo}
                       alt="logo"
                       className='header-logo'
-
+                      placeholder="blurred"
                   />
               </div>
           </Parallax>
