@@ -7,7 +7,7 @@ import '../assets/css/main-section.scss'
 
 const MainSection = () => {
     return(
-        <>
+        <div className='main-section'>
             <div className="main-naslov">
                 <h1>Dobrodošli u Kozmetički salon Queen</h1>
                 <h3>Zaslužuješ trenutak samo za tebe. <br/> Naš zadatak je da Vam pomognemo da se osjećate kao Kraljica!</h3>
@@ -18,6 +18,7 @@ const MainSection = () => {
                 <div className="box">
                     <div className="slika-box">
                         <Link to="/">
+                            <div className="slika-ram"></div>
                             <StaticImage
                                 src="../assets/images/osnovne/16-1.jpg"
                                 alt="slika"
@@ -35,6 +36,7 @@ const MainSection = () => {
 
                     <div className="slika-box">
                         <Link to="/">
+                            <div className="slika-ram"></div>
                             <StaticImage
                                 src="../assets/images/osnovne/1-1.jpg"
                                 alt="slika"
@@ -54,6 +56,7 @@ const MainSection = () => {
                 <div className="box">
                     <div className="slika-box">
                         <Link to="/">
+                            <div className="slika-ram"></div>
                             <StaticImage
                                 src="../assets/images/osnovne/17.png"
                                 alt="slika"
@@ -71,19 +74,16 @@ const MainSection = () => {
                     </div>
 
                     <div className="slika-box">
-                        <Link to="/">
 
-                        </Link>
-
-                        <div className="text-box">
-                            <div className="text-box1">
+                        <div className="text-box1">
+                            <div className="text-box2">
                                 <p>Pobegnite od svakodnevne užurbane stvarnosti i priuštite si neki od naših tretmana. <br/> Njegovane ruke i nokti najvidljivija su vizit karta kako se brinemo o sebi.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default MainSection

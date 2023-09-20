@@ -1,32 +1,86 @@
 
-.main-naslov {
-  text-align: center;
-  color: var(--zlatna);
-  margin: 5rem 0;
 
-  h1 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1rem;
+.main-section {
+
+
+  .main-naslov {
+    text-align: center;
+    color: var(--zlatna);
+    margin: 5rem 0;
+
+    h1 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1rem;
+      color: var(--bela);
+    }
+
   }
 
 
   .main-box {
+    margin: 0 auto;
 
     .box {
+      display: flex;
+      justify-content: space-evenly;
+      //margin-bottom: 14rem;
 
       .slika-box {
         width: 300px;
         height: 300px;
+        margin-bottom: 14rem;
+
+        .slika-ram {
+          border: 2px solid var(--zlatna);
+          width: 260px;
+          height: 300px;
+          position: absolute;
+          z-index: 9;
+          transform: translate(20px, -20px);
+
+        }
+
 
         .main-slika {
+          height: 100%;
+
+
+          //&:before {
+          //  border: 3px solid var(--zlatna);
+          //  content: "";
+          //  display: block;
+          //  height: 400px;
+          //  position: absolute;
+          //  width: 260px;
+          //  top: -50px;
+          //  //left: 5px;
+          //  z-index: 3;
+          //}
 
         }
 
         .text-box {
+          border-left: 2px solid var(--zlatna);
+          padding-left: 1rem;
 
+          h3 {
+            color: var(--zlatna);
+            margin-top: 1.2rem;
+          }
+
+          p {
+            color: var(--bela);
+          }
         }
+        .text-box1 {
+
+          .text-box2 {
+            color: var(--bela);
+          }
+        }
+
       }
     }
   }
@@ -34,15 +88,37 @@
 
 
 
-
   @media  (max-width: 600px) {
 
 
-    h1 {
-      font-size: 1.2em;
+    .main-naslov {
+      h1 {
+        font-size: 1.2em;
+      }
+      h3 {
+        font-size: 0.9rem;
+      }
     }
-    h3 {
-      font-size: 0.9rem;
+
+    .main-box {
+
+      .box {
+        flex-direction: column;
+
+        .slika-box {
+          //margin-bottom: 11rem;
+          margin: 0 auto 12rem;
+        }
+      }
     }
+
+
+
   }
 }
+
+
+
+
+
+
