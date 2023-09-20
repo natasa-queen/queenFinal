@@ -1,22 +1,34 @@
-import * as React from "react"
+import React, { useEffect } from "react"
 import { Script } from 'gatsby'
 import { Seo } from '../components/Seo'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
-import '../assets/css/main.scss'
+import MainSection from "../components/MainSection";
 
+import '../assets/css/main.scss'
+import '../assets/css/main-section.scss'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 export default function Home() {
+
+    useEffect( () => {
+        AOS.init({duration:1500})
+    }, [])
+
   return (
       <>
         <Header />
 
         <Layout>
+            <section className="main-section">
 
-          <h2>Kozmeticki salon Queen</h2>
+                <MainSection />
 
+            </section>
         </Layout>
       </>
   )
