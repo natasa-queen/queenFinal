@@ -31,6 +31,7 @@
         width: 300px;
         height: 300px;
         margin-bottom: 14rem;
+        transition: all 0.7s ease;
 
         .slika-ram {
           border: 2px solid var(--zlatna);
@@ -39,26 +40,22 @@
           position: absolute;
           z-index: 9;
           transform: translate(20px, -20px);
+          transition: all 0.7s ease;
+
+        }
+
+        &:hover {
+          transform: translate(-5px, 5px);
+
+          .slika-ram {
+            transform: translate(30px, -20px);
+          }
 
         }
 
 
         .main-slika {
           height: 100%;
-
-
-          //&:before {
-          //  border: 3px solid var(--zlatna);
-          //  content: "";
-          //  display: block;
-          //  height: 400px;
-          //  position: absolute;
-          //  width: 260px;
-          //  top: -50px;
-          //  //left: 5px;
-          //  z-index: 3;
-          //}
-
         }
 
         .text-box {
@@ -75,9 +72,16 @@
           }
         }
         .text-box1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
 
           .text-box2 {
             color: var(--bela);
+            border-left: 2px solid var(--zlatna);
+            padding-left: 1rem;
+            font-size: 1.2rem;
           }
         }
 

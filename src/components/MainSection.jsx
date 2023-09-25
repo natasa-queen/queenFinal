@@ -17,7 +17,7 @@ const MainSection = () => {
             <div className="main-box">
                 <div className="box">
                     <div className="slika-box">
-                        <Link to="/">
+                        <Link to="/salon">
                             <div className="slika-ram"></div>
                             <StaticImage
                                 src="../assets/images/osnovne/16-1.jpg"
@@ -35,7 +35,7 @@ const MainSection = () => {
                     </div>
 
                     <div className="slika-box">
-                        <Link to="/">
+                        <Link to="/usluge">
                             <div className="slika-ram"></div>
                             <StaticImage
                                 src="../assets/images/osnovne/1-1.jpg"
@@ -55,7 +55,7 @@ const MainSection = () => {
 
                 <div className="box">
                     <div className="slika-box">
-                        <Link to="/">
+                        <Link to="/o-nama">
                             <div className="slika-ram"></div>
                             <StaticImage
                                 src="../assets/images/osnovne/17.png"

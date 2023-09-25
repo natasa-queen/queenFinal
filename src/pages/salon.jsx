@@ -4,13 +4,13 @@ import Layout from '../components/Layout'
 import '../assets/css/stranica-u-pripremi.scss'
 
 
-const Rezervacija = () => {
+const Salon = () => {
     return(
         <Layout>
-            <h2>Rezervacija</h2>
+            <h2>Nas salon</h2>
 
             <h4><i>Stranica u pripremi</i></h4>
         </Layout>
     )
 }
-export default Rezervacija
+export default Salon

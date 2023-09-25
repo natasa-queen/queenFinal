@@ -29,9 +29,9 @@ const Navigacija = () => {
 
           <ul className={show ? `pokazati-meni` : ``}>
             <li><Link to='/' onClick={klik} activeClassName="aktivni-link" >Početna</Link></li>
-            <li><Link to='/' onClick={klik} activeClassName="aktivni-link" >Cjenovnik</Link></li>
+            <li><Link to='/cjenovnik' onClick={klik} activeClassName="aktivni-link" >Cjenovnik</Link></li>
             <li><Link to='/rezervacija' onClick={klik} activeClassName="aktivni-link">Rezervacija</Link></li>
-            <li><Link to='/' onClick={klik} activeClassName="aktivni-link">Edukacije</Link></li>
+            <li><Link to='/edukacije' onClick={klik} activeClassName="aktivni-link">Edukacije</Link></li>
           </ul>
 
           <div className='logo'>
