@@ -4,6 +4,7 @@ import { Seo } from '../components/Seo'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import MainSection from "../components/MainSection";
+import MainGalleryBox from "../components/MainGalleryBox";
 
 import '../assets/css/main.scss'
 import '../assets/css/main-section.scss'
@@ -27,6 +28,7 @@ export default function Home() {
             <section className="main-section">
 
                 <MainSection />
+                <MainGalleryBox />
 
             </section>
         </Layout>
