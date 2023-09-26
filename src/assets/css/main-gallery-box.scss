@@ -8,12 +8,21 @@
   //border: 1px solid white;
 
   .main-carousel {
-    height: 100%;
+    //height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
 
-    .slika {
-      //height: 100%;
-      //width: 100%;
-      //position: relative;
+    .carousel-item {
+      height: 70vh;
+      width: 100%;
+
+      .slika {
+        //height: 100%;
+        width: 100%;
+        //position: relative;
+      }
     }
   }
 
@@ -27,7 +36,11 @@
     z-index: 9;
     background-color: var(--crnaBg);
     border: 2px solid var(--zlatna);
-    padding: 30px;
+    padding: 20px;
+
+    h2 {
+      margin-top: 3px;
+    }
 
     a {
       color: var(--bela);

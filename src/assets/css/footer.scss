@@ -1,0 +1,252 @@
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid var(--zlatna);
+  background-color: var(--crna);
+
+
+  h2 {
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .fbox1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 7rem;
+
+    .linkovi-box {
+      flex: 1;
+
+      .linkovi {
+        display: flex;
+        flex-direction: column;
+
+
+        a {
+          color: var(--bela);
+          text-decoration: none;
+          padding: 0.5rem 0;
+          font-size: 1rem;
+
+          &:hover {
+            color: var(--zlatna);
+          }
+        }
+      }
+    }
+
+
+    .radno-vreme {
+      flex: 2;
+
+
+      table {
+        color: var(--bela);
+        width: 100%;
+
+        //border: 1px solid white;
+
+        td {
+          width: 30%;
+        }
+        tr {
+          width: 30%;
+        }
+      }
+    }
+
+
+    .kontakt {
+      flex: 2;
+
+      .adresa {
+
+        h4 {
+          font-size: 1rem;
+          text-align: left;
+          margin-top: 1rem;
+        }
+        p {
+          color: var(--bela);
+          margin-bottom: 0.1rem;
+        }
+
+        .lokacija {
+          color: var(--zlatna);
+          margin-top: 0.8rem;
+
+          a {
+            color: var(--zlatna);
+            text-decoration: none;
+          }
+        }
+      }
+
+      .telefon {
+
+        h4 {
+          font-size: 1rem;
+          text-align: left;
+          margin-top: 1.5rem;
+        }
+        p {
+          color: var(--bela);
+        }
+      }
+
+      .socijalne-mreze {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        font-size: 2rem;
+
+        a {
+          color: var(--zlatna);
+        }
+      }
+
+
+    }
+
+  }
+
+
+  .fbox2 {
+    width: 100%;
+
+    p {
+      text-align: center;
+      margin-top: 1rem;
+
+      .godina {
+        color: var(--bela);
+        font-style: italic;
+        text-align: center;
+      }
+    }
+  }
+
+
+
+  @media  (max-width: 600px) {
+
+
+    .fbox1 {
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 1rem;
+
+
+      .linkovi-box {
+        width: 100%;
+        text-align: center;
+
+        h2 {
+          text-align: center;
+
+        }
+
+        .linkovi {
+
+
+          a {
+            color: var(--bela);
+            text-decoration: none;
+            padding: 0.5rem 0;
+            font-size: 1rem;
+
+            &:hover {
+              color: var(--zlatna);
+            }
+          }
+        }
+      }
+
+
+      .radno-vreme {
+
+        h2 {
+          text-align: center;
+
+        }
+
+
+        table {
+          color: var(--bela);
+          width: 100%;
+
+          //border: 1px solid white;
+
+          td {
+            width: 30%;
+          }
+          tr {
+            width: 30%;
+          }
+        }
+      }
+
+
+      .kontakt {
+
+        h2 {
+          text-align: center;
+
+        }
+
+        .adresa {
+
+          h4 {
+            font-size: 1rem;
+            text-align: left;
+            margin-top: 1rem;
+          }
+          p {
+            color: var(--bela);
+            margin-bottom: 0.1rem;
+          }
+
+          .lokacija {
+            color: var(--zlatna);
+            margin-top: 0.8rem;
+
+            a {
+              color: var(--zlatna);
+              text-decoration: none;
+            }
+          }
+        }
+
+        .telefon {
+
+          h4 {
+            font-size: 1rem;
+            text-align: left;
+            margin-top: 1.5rem;
+          }
+          p {
+            color: var(--bela);
+          }
+        }
+
+        .socijalne-mreze {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 3rem;
+          font-size: 2rem;
+
+          a {
+            color: var(--zlatna);
+          }
+        }
+      }
+    }
+
+  }
+
+}

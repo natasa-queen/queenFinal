@@ -5,6 +5,8 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import MainSection from "../components/MainSection";
 import MainGalleryBox from "../components/MainGalleryBox";
+import InstaSlicice from "../components/InstaSlicice";
+import Footer from "../components/Footer";
 
 import '../assets/css/main.scss'
 import '../assets/css/main-section.scss'
@@ -29,6 +31,8 @@ export default function Home() {
 
                 <MainSection />
                 <MainGalleryBox />
+                <InstaSlicice />
+                <Footer />
 
             </section>
         </Layout>
