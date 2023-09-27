@@ -1,14 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import '../assets/css/main-section.scss'
 
 
+// import AOS from 'aos'
+// import 'aos/dist/aos.css'
+
+
 
 const MainSection = () => {
+
+    // useEffect( () => {
+    //     AOS.init({duration:1500})
+    // }, [])
+
     return(
         <div className='main-section'>
-            <div className="main-naslov">
+            <div className="main-naslov" data-aos="fade-down" data-aos-once="true">
                 <h1>Dobrodošli u Kozmetički salon Queen</h1>
                 <h3>Zaslužuješ trenutak samo za tebe. <br/> Naš zadatak je da Vam pomognemo da se osjećate kao Kraljica!</h3>
 
@@ -16,7 +25,7 @@ const MainSection = () => {
 
             <div className="main-box">
                 <div className="box">
-                    <div className="slika-box">
+                    <div className="slika-box" data-aos="zoom-in-right">
                         <Link to="/salon">
                             <div className="slika-ram"></div>
                             <StaticImage
@@ -34,7 +43,7 @@ const MainSection = () => {
                         </div>
                     </div>
 
-                    <div className="slika-box">
+                    <div className="slika-box" data-aos="zoom-in-left">
                         <Link to="/usluge">
                             <div className="slika-ram"></div>
                             <StaticImage
@@ -54,7 +63,7 @@ const MainSection = () => {
                 </div>
 
                 <div className="box">
-                    <div className="slika-box">
+                    <div className="slika-box" data-aos="zoom-in-right">
                         <Link to="/o-nama">
                             <div className="slika-ram"></div>
                             <StaticImage
@@ -73,7 +82,7 @@ const MainSection = () => {
                         </div>
                     </div>
 
-                    <div className="slika-box">
+                    <div className="slika-box" data-aos="zoom-in-left">
 
                         <div className="text-box1">
                             <div className="text-box2">

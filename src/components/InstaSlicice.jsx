@@ -13,11 +13,11 @@ const InstaSlicice = () => {
     return(
         <section className='insta-box'>
             <div className="box1">
-                <div className="box1-1">
+                <div className="box1-1" data-aos="zoom-in-right">
                     <p>Dobrodošli u naš Kozmeticki salon Queen! Ovdje ćete naći sve što je potrebno za savršeno njegovanje svojih noktiju. Naš tim stručnih tehničara za nokte pruža širok spektar usluga, uključujući manikure, pedikure, geliranje noktiju, lakiranje noktiju i još mnogo toga.</p>
                 </div>
 
-                <div className="box1-2">
+                <div className="box1-2" data-aos="zoom-in-left">
                     <div className="box1-2-1">
                         <StaticImage
                             src='../assets/images/osnovne/qq1-1.png'
