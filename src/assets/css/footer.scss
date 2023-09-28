@@ -81,6 +81,9 @@ footer {
           a {
             color: var(--zlatna);
             text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 3px;
           }
         }
       }

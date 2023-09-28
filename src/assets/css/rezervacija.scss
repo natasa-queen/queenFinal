@@ -1,0 +1,48 @@
+
+section {
+
+  .rezervacija-wrapper {
+    max-width: 500px;
+    min-height: 95vh;
+    margin: 0 auto;
+
+    .rezervacija-naslov {
+      h2 {
+        font-size: 1.7rem;
+      }
+      p {
+        color: var(--bela);
+        text-align: center;
+
+      }
+    }
+
+    .rezervacija-poziv {
+
+
+      a {
+        text-decoration: none;
+        color: var(--zlatna);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+      }
+    }
+
+    .rezervacija-social {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        color: var(--zlatna);
+        font-size: 2.1rem;
+        margin-top: 2rem;
+
+      }
+    }
+  }
+}

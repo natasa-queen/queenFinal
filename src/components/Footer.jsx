@@ -2,10 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import '../assets/css/footer.scss'
 
-import {CiLocationOn, CiInstagram, CiFacebook} from "react-icons/ci";
-import { FaViber } from "react-icons/fa";
-import {RiMessengerLine} from "react-icons/ri";
-
+import { LiaMapMarkerSolid, LiaViber, LiaInstagram, LiaFacebook, LiaFacebookMessenger } from "react-icons/lia";
 
 
 const Footer = () => {
@@ -73,7 +70,7 @@ const Footer = () => {
                         <p>Bosna i Hercegovina</p>
 
                         <div className="lokacija">
-                            <CiLocationOn /> <a href="https://goo.gl/maps/bs5eUjS4Lek41Pzm9" target="_blank" >LOKACIJA SALONA</a>
+                             <a href="https://goo.gl/maps/bs5eUjS4Lek41Pzm9" target="_blank" ><LiaMapMarkerSolid /> LOKACIJA SALONA</a>
                         </div>
                     </div>
 
@@ -84,10 +81,10 @@ const Footer = () => {
                     </div>
 
                     <div className="socijalne-mreze">
-                        <a href="viber://chat?number=%2B38765255827"><FaViber /></a>
-                        <a href="https://www.instagram.com/kozmeticki_salon_queen/"><CiInstagram /></a>
-                        <a href="https://www.facebook.com/ks.queen.prnjavor"><CiFacebook /></a>
-                        <a href="https://m.me/Kozmetički salon - QUEEN=fm"><RiMessengerLine /></a>
+                        <a href="viber://chat?number=%2B38765255827"><LiaViber /></a>
+                        <a href="https://www.instagram.com/kozmeticki_salon_queen/"><LiaInstagram /></a>
+                        <a href="https://www.facebook.com/ks.queen.prnjavor"><LiaFacebook /></a>
+                        <a href="https://m.me/Kozmetički salon - QUEEN=fm"><LiaFacebookMessenger /></a>
                     </div>
                 </div>
             </div>

@@ -5,9 +5,7 @@ import Layout from '../components/Layout'
 
 import '../assets/css/rezervacija.scss'
 
-import { CiInstagram, CiPhone, CiFacebook,  } from "react-icons/ci";
-import { FaViber } from "react-icons/fa";
-import { RiMessengerLine } from "react-icons/ri";
+import { LiaPhoneSolid, LiaViber, LiaInstagram, LiaFacebook, LiaFacebookMessenger } from "react-icons/lia";
 
 
 const Rezervacija = () => {
@@ -20,13 +18,13 @@ const Rezervacija = () => {
                         <p>Izaberite jedan od načina rezervacije i jednostavno zakažite svoje tretmane.</p>
                     </div>
                     <div className='rezervacija-poziv'>
-                        <a href="tel: +38765255827"><CiPhone /><p>Pozovite nas</p></a>
+                        <a href="tel: +38765255827"><LiaPhoneSolid />Pozovite nas</a>
                     </div>
                     <div className='rezervacija-social'>
-                        <a href="viber://chat?number=%2B38765255827"><FaViber /></a>
-                        <a href="https://www.instagram.com/kozmeticki_salon_queen/"><CiInstagram /></a>
-                        <a href="https://www.facebook.com/ks.queen.prnjavor"><CiFacebook /></a>
-                        <a href="https://m.me/Kozmetički salon - QUEEN=fm"><RiMessengerLine /></a>
+                        <a href="viber://chat?number=%2B38765255827"><LiaViber /></a>
+                        <a href="https://www.instagram.com/kozmeticki_salon_queen/"><LiaInstagram /></a>
+                        <a href="https://www.facebook.com/ks.queen.prnjavor"><LiaFacebook /></a>
+                        <a href="https://m.me/Kozmetički salon - QUEEN=fm"><LiaFacebookMessenger /></a>
                     </div>
                 </div>
             </section>
