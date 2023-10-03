@@ -1,15 +1,20 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-import '../assets/css/stranica-u-pripremi.scss'
+import '../assets/css/cenovnik-page.scss'
+
+import Cenovnik from '../components/Cenovnik'
 
 
 const Cjenovnik = () => {
     return(
         <Layout>
-            <h2>Cjenovnik</h2>
+            <div className="cen-page">
+                <h2>Cjenovnik</h2>
 
-            <h4><i>Stranica u pripremi</i></h4>
+                <Cenovnik />
+            </div>
+
         </Layout>
     )
 }

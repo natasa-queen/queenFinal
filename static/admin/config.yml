@@ -10,21 +10,21 @@ logo_url: ../logo1.png
 locale: 'sr'
 
 collections:
-#  - label: "Cenovnik"
-#    name: "cena"
-#    widget: "list"
-#    folder: 'content/cenovnik'
-#    preview: false
-#    create: true
-#    fields:
-#      - { label: 'Usluga', name: 'title', widget: 'string' }
-#      - label: 'Vrsta'
-#        name: 'vrsta'
-#        widget: 'list'
-#        create: true
-#        fields:
-#          - { label: 'Vrsta usluge', name: 'vrstaUsluge', widget: 'string' }
-#          - { label: 'Cena usluge', name: 'cenaUsluge', widget: 'string' }
+  - label: "Cenovnik"
+    name: "cena"
+    widget: "list"
+    folder: 'content/cenovnik'
+    preview: false
+    create: true
+    fields:
+      - { label: 'Usluga', name: 'title', widget: 'string' }
+      - label: 'Vrsta'
+        name: 'vrsta'
+        widget: 'list'
+        create: true
+        fields:
+          - { label: 'Vrsta usluge', name: 'vrstaUsluge', widget: 'string' }
+          - { label: 'Cena usluge', name: 'cenaUsluge', widget: 'string' }
 
 
   - label: "Objava"
