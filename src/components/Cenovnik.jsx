@@ -5,6 +5,7 @@ import { graphql, useStaticQuery } from "gatsby";
 
 import Accordion from 'react-bootstrap/Accordion';
 
+
 const Cenovnik = () => {
 
     const data = useStaticQuery(graphql`
@@ -85,5 +86,3 @@ const Cenovnik = () => {
 }
 
 export default Cenovnik;
-
-
