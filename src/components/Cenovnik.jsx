@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/css/cenovnik.scss';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 import { graphql, useStaticQuery } from "gatsby";
 

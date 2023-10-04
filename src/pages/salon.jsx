@@ -1,16 +1,37 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
 
-import '../assets/css/stranica-u-pripremi.scss'
+import '../assets/css/carousel.scss'
+import Slider from '../components/Carousel'
 
 
-const Salon = () => {
+const Salon = ({ data }) => {
+
+    const images = data.allFile.nodes
+
     return(
         <Layout>
             <h2>Nas salon</h2>
 
-            <h4><i>Stranica u pripremi</i></h4>
+
+            <Slider images={images} />
+
         </Layout>
     )
 }
 export default Salon
+
+
+export const query = graphql`
+  query {
+    allFile(filter: {relativePath: {}, relativeDirectory: {eq: "salon"}}) {
+      nodes {
+        childImageSharp {
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
+        }
+      }
+    }
+  }
+`
