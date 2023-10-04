@@ -16,7 +16,10 @@ const Salon = ({ data }) => {
             <h2>Nas salon</h2>
 
 
-            <Slider images={images} />
+            <div className="carousel-wraper">
+                <Slider images={images} />
+            </div>
+
 
         </Layout>
     )

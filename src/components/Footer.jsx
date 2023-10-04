@@ -11,7 +11,7 @@ const Footer = () => {
     let godina = g.getFullYear();
 
     return(
-        <footer data-aos="fade-up">
+        <footer data-aos="fade-down">
             <div className="fbox1">
 
                 <div className="linkovi-box">

@@ -3,7 +3,8 @@ import React from 'react'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from '../assets/images/salon/salon2.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 
 function Slider({ images }) {
@@ -12,16 +13,19 @@ function Slider({ images }) {
 
 
     return (
-        <Carousel fade>
-            <Carousel.Item>
+        <Carousel fade interval={null} indicators={false} >
+
 
                 {images.map((image, index) => (
-                    <GatsbyImage
-                        key={index}
-                        image={getImage(image)}
-                        alt='slika salona'
+                    <Carousel.Item>
+                        <GatsbyImage
+                            key={index}
+                            image={getImage(image)}
+                            alt='slika salona'
+                        />
 
-                    />
+                    </Carousel.Item>
+
                 ))}
 
 
@@ -30,7 +34,7 @@ function Slider({ images }) {
                 {/*    <h3>First slide label</h3>*/}
                 {/*    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
                 {/*</Carousel.Caption>*/}
-            </Carousel.Item>
+
         </Carousel>
     );
 }
