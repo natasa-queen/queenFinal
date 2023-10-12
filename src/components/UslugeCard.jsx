@@ -34,7 +34,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Nadogradnja, geliranje, trajni lak, Queen, Swarovski...</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/njega-ruku' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Vasa stopala zasluzuju najbolju njegu!</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/njega-nogu' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Konstantno uklanjanje dlaka je skoro svakodnevna tema za žene.</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/depilacija' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Treba vam opuštanje i relaksacija?</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/masaza' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Savršeno oblikovane obrve su ključni dio svakog savršenog izgleda</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/obrve' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Osvježite svoj izgled s dugim i punim trepavicama!</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/trepavice' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Istakni svoje obrve za savršen oblik lica!</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/lash-lift' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -258,7 +258,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Postignite savršeno definirane obrve uz Puder obrve!</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/puder-obrve' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>
@@ -288,7 +288,7 @@ const UslugeCard = () => {
                                     <div>
                                         {/*<h3 className="text-white fs-5">{props.naslov}</h3>*/}
                                         <p className="fs-6 text-white">Osvježi svoj izgled s profesionalnim šminkanjem!</p>
-                                        <button><Link to='#' >Saznaj više</Link></button>
+                                        <button><Link to='/usluge/sminkanje' >Saznaj više</Link></button>
                                     </div>
                                 </div>
                             </div>

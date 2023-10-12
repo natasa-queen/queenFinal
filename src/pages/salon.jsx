@@ -1,5 +1,7 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import {graphql, Script} from 'gatsby'
+
+// import Seo from '../components/Seo'
 
 import Layout from '../components/Layout'
 
@@ -27,6 +29,7 @@ const Salon = ({ data }) => {
 export default Salon
 
 
+
 export const query = graphql`
   query {
     allFile(filter: {relativePath: {}, relativeDirectory: {eq: "salon"}}) {
@@ -38,3 +41,11 @@ export const query = graphql`
     }
   }
 `
+
+// export const Head = () => {
+//     return(
+//         <>
+//             <Seo title="Nas salon | Queen" />
+//         </>
+//     )
+// }

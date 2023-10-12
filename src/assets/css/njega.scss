@@ -1,0 +1,41 @@
+
+.usluga-box {
+  display: flex;
+  max-width: 1024px;
+  margin: 2rem auto;
+
+  .lista {
+    flex: 1;
+
+  }
+
+  .usluga-text {
+    color: var(--bela);
+    flex: 3;
+    padding: 0 2rem;
+    line-height: 1.6rem;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1.4rem;
+      color: var(--zlatna);
+    }
+    h3 {
+      margin: 1.1rem 0.2rem;
+      color: var(--zlatna);
+      font-size: 1.1rem;
+    }
+    .opis-usluge {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column-reverse;
+
+    .lista {
+      padding-right: 1rem;
+    }
+  }
+
+}
