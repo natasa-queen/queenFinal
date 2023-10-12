@@ -7,7 +7,7 @@ import '../assets/css/usluge-lista.scss'
 const UslugeLista = () => {
   return(
       <>
-        <ul>
+        <ul className='usluge-lista'>
           <li><Link to='/usluge/njega-ruku' activeClassName='activeLink'>&rArr; Njega ruku</Link></li>
           <li><Link to='/usluge/njega-nogu' activeClassName='activeLink'>&rArr; Njega nogu</Link></li>
           <li><Link to='/usluge/depilacija' activeClassName='activeLink'>&rArr; Depilacija</Link></li>

@@ -3,6 +3,8 @@ import {graphql, Script} from 'gatsby'
 
 // import Seo from '../components/Seo'
 
+import '../assets/css/salon.scss'
+
 import Layout from '../components/Layout'
 
 import '../assets/css/carousel.scss'
@@ -15,12 +17,15 @@ const Salon = ({ data }) => {
 
     return(
         <Layout>
-            <h2>Nas salon</h2>
+          <section className="nas-salon">
+            <h2>Naš salon</h2>
 
 
             <div className="carousel-wraper">
-                <Slider images={images} />
+              <Slider images={images} />
             </div>
+          </section>
+
 
 
         </Layout>

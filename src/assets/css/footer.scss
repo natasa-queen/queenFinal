@@ -4,12 +4,13 @@ footer {
   margin: 0 auto;
   border: 1px solid var(--zlatna);
   background-color: var(--crna);
-
+  padding-top: 2rem;
 
   h2 {
     margin-bottom: 1.2rem;
     font-size: 1.3rem;
     text-align: left;
+    color: var(--zlatna);
   }
 
   .fbox1 {
@@ -68,6 +69,7 @@ footer {
           font-size: 1rem;
           text-align: left;
           margin-top: 1rem;
+          color: var(--zlatna);
         }
         p {
           color: var(--bela);
@@ -94,6 +96,7 @@ footer {
           font-size: 1rem;
           text-align: left;
           margin-top: 1.5rem;
+          color: var(--zlatna);
         }
         p {
           color: var(--bela);

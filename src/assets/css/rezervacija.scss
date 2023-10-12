@@ -1,5 +1,5 @@
 
-section {
+.section1 {
 
   .rezervacija-wrapper {
     max-width: 500px;
@@ -9,6 +9,8 @@ section {
     .rezervacija-naslov {
       h2 {
         font-size: 1.7rem;
+        color: var(--zlatna);
+        margin: 2rem;
       }
       p {
         color: var(--bela);
