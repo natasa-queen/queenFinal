@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../../components/Layout"
-import { Seo } from '../../components/Seo'
+// import { Seo } from '../../components/Seo'
 
 
 import '../../assets/css/usluge-index.scss'
@@ -32,10 +32,10 @@ export default function Usluge() {
     )
 }
 
-export const Head = () => {
-    return(
-        <>
-            <Seo title="Usluge | Queen" />
-        </>
-    )
-}
+// export const Head = () => {
+//     return(
+//         <>
+//             <Seo title="Usluge | Queen" />
+//         </>
+//     )
+// }
