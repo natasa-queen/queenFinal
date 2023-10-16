@@ -16,7 +16,9 @@
 
       .accordion-button {
         color: var(--zlatna);
-        background-color: rgba(13, 13, 13, 0.68);
+        //background-color: rgba(13, 13, 13, 0.68);
+        //background-color: rgba(21, 21, 21, 0.68);
+        background-color: rgba(36, 36, 36, 0.91);
 
         &:focus {
           box-shadow: none;
@@ -24,12 +26,13 @@
 
         &:after {
           background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='darkgoldenrod'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
-          color: red;
         }
 
 
         &.collapsed {
-          //background-color: white;
+          //background-color: rgba(36, 36, 36, 0.91);
+          background-color: rgba(21, 21, 21, 0.68);
+
           //border-left: 2px solid var(--zlatna);
 
           &:after {
