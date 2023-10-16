@@ -34,11 +34,11 @@ const Pahulje = () => {
       const snowflakes  = new Snowflakes({
         color: '#fff', // Default: "#5ECDEF"
         // container: document.querySelector(''), // Default: document.body
-        count: 10, // 100 snowflakes. Default: 50
+        count: 7, // 100 snowflakes. Default: 50
         minOpacity: 0.6, // From 0 to 1. Default: 0.6
         maxOpacity: 0.95, // From 0 to 1. Default: 1
-        minSize: 7, // Default: 10
-        maxSize: 19, // Default: 25
+        minSize: 6, // Default: 10
+        maxSize: 15, // Default: 25
         rotation: true, // Default: true
         speed: 0.5, // The property affects the speed of falling. Default: 1
         wind: true, // Without wind. Default: true
