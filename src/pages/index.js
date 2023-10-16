@@ -7,6 +7,9 @@ import MainSection from "../components/MainSection";
 import MainGalleryBox from "../components/MainGalleryBox";
 import InstaSlicice from "../components/InstaSlicice";
 
+import Obavest from '../components/Obavest'
+
+
 import '../assets/css/main.scss'
 import '../assets/css/main-section.scss'
 
@@ -23,6 +26,9 @@ export default function Home() {
 
   return (
       <>
+
+        <Obavest />
+
         <Header />
 
         <Layout>
