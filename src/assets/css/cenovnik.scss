@@ -1,99 +1,76 @@
 
-//
-//.lista-wrap {
-//  max-width: 500px;
-//  margin: 1rem auto;
-//  padding: 0 0.8rem;
-//
-//
-//  .lista-item {
-//
-//    .accordion-header {
-//
-//
-//      .accordion-button {
-//        width: 100%;
-//      }
-//    }
-//  }
-//
-//}
+.lista-wrap {
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 0 0.8rem;
+
+  .lista-item {
+    background-color: transparent;
+    color: var(--zlatna);
+    //border-left: 2px solid var(--zlatna);
+
+    .accordion-header {
+      margin: 0;
+      border-left: 2px solid var(--zlatna);
 
 
+      .accordion-button {
+        color: var(--zlatna);
+        background-color: rgba(13, 13, 13, 0.68);
+
+        &:focus {
+          box-shadow: none;
+        }
+
+        &:after {
+          background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='darkgoldenrod'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+          color: red;
+        }
 
 
-//.lista-wrap {
-//    max-width: 500px;
-//    margin: 1rem auto;
-//    padding: 0 0.8rem;
-//
-//  .lista-item {
-//    background-color: transparent;
-//    color: var(--zlatna);
-//    //border-left: 2px solid var(--zlatna);
-//
-//    .accordion-header {
-//      margin: 0;
-//      border-left: 2px solid var(--zlatna);
-//
-//
-//      .accordion-button {
-//        color: var(--zlatna);
-//        background-color: rgba(13, 13, 13, 0.68);
-//
-//        &:focus {
-//          box-shadow: none;
-//        }
-//
-//        &:after {
-//          //background-color: white;
-//          color: red;
-//        }
-//
-//
-//        &.collapsed {
-//          background-color: white;
-//          //border-left: 2px solid var(--zlatna);
-//
-//          &:after {
-//            //background-color: white;
-//            color: red;
-//          }
-//        }
-//
-//
-//      }
-//
-//    }
-//
-//    .accordion-collapse {
-//
-//      .accordion-header {
-//
-//        .accordion-button {
-//
-//        }
-//
-//      }
-//
-//
-//      &:after {
-//
-//      }
-//
-//
-//      .accordion-body {
-//        border-left: 2px solid var(--zlatna);
-//
-//        p {
-//          margin: 0;
-//          padding: 0;
-//        }
-//
-//      }
-//    }
-//  }
-//}
+        &.collapsed {
+          //background-color: white;
+          //border-left: 2px solid var(--zlatna);
+
+          &:after {
+            //background-color: white;
+            //color: darkgoldenrod;
+          }
+        }
+
+
+      }
+
+    }
+
+    .accordion-collapse {
+
+      .accordion-header {
+
+        .accordion-button {
+
+        }
+
+      }
+
+
+      &:after {
+
+      }
+
+
+      .accordion-body {
+        border-left: 2px solid var(--zlatna);
+
+        p {
+          margin: 0;
+          padding: 0;
+        }
+
+      }
+    }
+  }
+}
 
 
 

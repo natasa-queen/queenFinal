@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import '../assets/css/cenovnik-page.scss'
 
 import Cenovnik from '../components/Cenovnik'
+// import Test from '../components/Test'
 
 
 const Cjenovnik = () => {
@@ -12,6 +13,7 @@ const Cjenovnik = () => {
             <div className="cen-page">
                 <h2>Cjenovnik</h2>
 
+                {/*<Test />*/}
                 <Cenovnik />
             </div>
 
