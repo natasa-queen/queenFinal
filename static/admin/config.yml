@@ -46,14 +46,12 @@ collections:
 
 
 
-
-#
-#  - label: "Efekti"
-#    name: 'efekti'
-#    folder: 'content/efekti'
-#    preview: false
-#    create: false
-#    fields:
-#      #      - { label: 'Tekst objave', name: 'title', widget: 'text' }
-#      - { label: 'Efekt', name: 'title', widget: 'string' }
-#      - { label: 'Ukljuci', name: 'draft', widget: 'boolean' }
+  - label: "Efekti"
+    name: 'efekti'
+    folder: 'content/efekti'
+    preview: false
+    create: false
+    fields:
+      #      - { label: 'Tekst objave', name: 'title', widget: 'text' }
+      - { label: 'Efekt', name: 'title', widget: 'string' }
+      - { label: 'Ukljuci', name: 'draft', widget: 'boolean' }
