@@ -2,6 +2,7 @@
 .usluge-lista {
   font-size: 1rem;
 
+
   li {
     list-style: none;
     border-bottom: 1px solid var(--zlatna);
@@ -11,6 +12,8 @@
       color: var(--bela);
       text-decoration: none;
       transition: all 0.5s ease;
+      z-index: 10000;
+
 
       &:hover {
         color: var(--zlatna);

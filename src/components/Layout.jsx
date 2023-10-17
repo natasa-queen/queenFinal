@@ -5,6 +5,8 @@ import '../assets/css/layout.scss'
 
 import Pahulje from '../components/Pahulje'
 
+import Test from '../components/Test'
+
 // import Obavest from '../components/Obavest'
 
 
@@ -12,7 +14,7 @@ const Layout = ({children}) => {
     return(
         <div className='layout'>
 
-          {/*<Obavest />*/}
+          <Test />
 
           <Pahulje />
 
