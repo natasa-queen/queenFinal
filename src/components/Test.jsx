@@ -44,15 +44,15 @@ const Test = () => {
         <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
         <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
 
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
-        <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
+        {/*<snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>*/}
 
       </snowfall>
       </>
