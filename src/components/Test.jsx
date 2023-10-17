@@ -31,7 +31,7 @@ const Test = () => {
         {/*<snowflake><span>?</span>️️</snowflake>*/}
         {/*<snowflake><span>?</span> ️️</snowflake>*/}
         {/*<snowflake><span>?</span>️</snowflake>*/}
-        {/*<snowflake><img alt='pahulja' src="../assets/images/snowflake.png" />️</snowflake>*/}
+
 
 
         <snowflake><img alt='pahulja' src={Pahuljica} />️</snowflake>
