@@ -3,7 +3,7 @@ import {  graphql, useStaticQuery } from 'gatsby'
 
 import '../assets/css/snowfall.scss'
 
-import Pahuljica from '../assets/images/snowflake8.png'
+import Pahuljica from '../assets/images/snowflake5.png'
 
 
 

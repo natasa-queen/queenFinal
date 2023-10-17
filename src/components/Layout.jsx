@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import '../assets/css/layout.scss'
 
 import Pahuljice from '../components/Pahulje'
+import Valentinovo from '../components/Valentinovo'
 
 
 
@@ -13,6 +14,7 @@ const Layout = ({children}) => {
 
 
             <Pahuljice />
+            <Valentinovo />
 
             <Navigacija />
 
