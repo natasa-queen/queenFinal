@@ -2,4 +2,4 @@
 title: Novo!!
 draft: false
 ---
-Snizenjeeeee!!!!!!!
+Snizenjeeeee!!!

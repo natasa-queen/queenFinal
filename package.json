@@ -26,7 +26,6 @@
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-transformer-remark": "^6.12.0",
     "gatsby-transformer-sharp": "^5.12.0",
-    "magic-snowflakes": "^6.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",

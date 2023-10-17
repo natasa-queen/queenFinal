@@ -39,7 +39,7 @@ const Obavest = () => {
 
               <div className={node.childMarkdownRemark.frontmatter.draft ? `obavest` : `sakrij`}>
 
-                <Marquee speed={30} autoFill={true}>
+                <Marquee speed={30} autoFill={false}>
                   <p key={node.id}>
                     {node.childMarkdownRemark.rawMarkdownBody}
                   </p>
