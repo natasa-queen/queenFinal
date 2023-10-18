@@ -1,4 +1,4 @@
 ---
 title: Dan zaljubljenih
-draft: true
+draft: false
 ---
