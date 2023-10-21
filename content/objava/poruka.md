@@ -1,5 +1,5 @@
 ---
 title: Novo!!
-draft: true
+draft: false
 ---
 Buuubaaac!!!!! Maćiiiiii
