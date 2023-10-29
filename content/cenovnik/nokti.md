@@ -1,7 +1,7 @@
 ---
 title: Nokti
 vrsta:
-  - vrstaUsluge: * Nadogradnja  noktiju (izlivanje)
+  - vrstaUsluge: Nadogradnja  noktiju (izlivanje)*
     cenaUsluge: 45 KM
   - vrstaUsluge: QUEEN manikir + gel
     cenaUsluge: 40 KM
