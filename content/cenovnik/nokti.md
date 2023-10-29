@@ -1,7 +1,7 @@
 ---
 title: Nokti
 vrsta:
-  - vrstaUsluge: Nadogradnja  noktiju (izlivanje)*
+  - vrstaUsluge: Nadogradnja noktiju (izlivanje)*
     cenaUsluge: 45 KM
   - vrstaUsluge: QUEEN manikir + gel
     cenaUsluge: 40 KM
@@ -27,4 +27,6 @@ vrsta:
     cenaUsluge: 5 KM
   - vrstaUsluge: Swarovski cirkon (1 kom)
     cenaUsluge: 3 KM
+  - vrstaUsluge: Napomena* Nadogradnja noktiju, koja prelazi broj 3 na šablonu, naplaćuje se 50% više.
+    cenaUsluge:
 ---
