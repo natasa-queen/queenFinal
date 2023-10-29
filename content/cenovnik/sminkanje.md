@@ -1,8 +1,10 @@
 ---
-title: Sminkanje
+title: Šminkanje
 vrsta:
-  - vrstaUsluge: Natural
-    cenaUsluge: "22"
-  - vrstaUsluge: Biznis Look
-    cenaUsluge: "32"
+  - vrstaUsluge: Šminkanje
+    cenaUsluge: 30 KM
+  - vrstaUsluge: Šminkanje + jednokratne trepavice
+    cenaUsluge: 40 KM
+  - vrstaUsluge: Lijepljenje jednokratnih trepavica
+    cenaUsluge: 5 KM
 ---

@@ -3,7 +3,7 @@ import {  graphql, useStaticQuery } from 'gatsby'
 
 import '../assets/css/valentinovo.scss'
 
-import Srce from '../assets/images/srce.png'
+import Srce from '../assets/images/srce1.png'
 
 
 
