@@ -26,6 +26,26 @@ module.exports = {
 
 
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-BKVSQJYWSJ", // Google Analytics / GA
+        ],
+      },
+    },
+
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://queen-kozmetickisalon.netlify.app',
+        sitemap: 'https://queen-kozmetickisalon.netlify.app/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
+
+
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Queen Kozmetički salon`,
