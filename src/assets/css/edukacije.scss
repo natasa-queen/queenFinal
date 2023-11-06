@@ -7,8 +7,26 @@
     font-size: 1.7rem;
     margin: 1.5rem;
   }
-  h4 {
-    color: var(--zlatna);
 
+  .edu-wrap {
+    max-width: 700px;
+    margin: 2rem auto;
+
+    h4 {
+      color: var(--zlatna);
+
+    }
+    h5 {
+      //text-align: center;
+      color: var(--zlatna);
+
+    }
+
+    p {
+      color: var(--bela);
+
+    }
   }
+
+
 }
